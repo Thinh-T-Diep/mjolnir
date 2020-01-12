@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Software - Mjölnir</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	<link rel="icon" href="images/mjolnir.png">
+</head>
+
+<body class="is-preload">
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+
+				<!-- Logo -->
+				<a href="index.html" class="logo">
+					<span class="symbol"><img src="images/mjolnir.png" alt="" /></span><span
+						class="title">Mjölnir</span>
+				</a>
+
+				<!-- Nav -->
+				<nav>
+					<ul>
+						<li><a href="#menu">Menu</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<!-- Menu -->
+		<nav id="menu">
+			<h2>Menu</h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="team-profile.html">Team Profile</a></li>
+				<li><a href="index.html#individual-profiles">Individual Profiles</a></li>
+				<li><a href="project-idea.html">Project Idea</a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<h4>Team Project Idea</h4>
+				<h1>Anlen Fridge - Software</h1>
+				<section>
+					<ul id="project-sections" class="actions fit">
+						<li><a href="project-idea.html#project-summary" class="button large primary fit">Summary</a>
+						</li>
+						<li><a href="project-motivation.html" class="button large primary fit">Motivation</a></li>
+						<li><a href="project-hardware.html" class="button large primary fit">Hardware</a></li>
+						<li><a href="project-software.html" class="button large secondary fit">Software</a></li>
+						<li><a href="project-app.html" class="button large primary fit">App</a></li>
+					</ul>
+				</section>
+				<p>The main software that is necessary for the systems to work seamlessly is Artificial Intelligence, or
+					AI. AI will be needed for the computer vision and the food recommendation function. Since we are not
+					technically knowledgeable enough to make or simulate these functions, we decided that thorough
+					research and literary review will be done for this part. We will come up with proposed ways we can
+					use the current technology to achieve the goals for the fridge functions, mainly focusing on the
+					computer vision function.</p>
+				<p>In our research, we have identified a key technology that will be used in our computer vision
+					technology: deep learning. Deep learning is a technology that enables such functions such as
+					classification of images. Using the cameras that are placed inside the fridge, it can take images of
+					the food as it being put inside the fridge and while it stays there. It can then, for example,
+					identify if a piece of beef or pork has been put inside the fridge. Based on a few metrics such as
+					color, it can then classify the piece of meat as fresh or not and calculate the time it has left
+					still being useable. Combined this with information such as the time it has been put inside the
+					fridge, it can then do things such as notify the user that they should use the item soon (more
+					details in the app section). A test with real images, however, is yet to be performed for this
+					functionality.</p>
+				<p>We have yet to be able to implement the image classification algorithim. However, we have done a
+					prototype for a secondary function of the fridge, which is the door opened notification system that
+					would notify your app if you have left the door open for a set period of time. This function will be
+					useful in preserving the energy usage of the fridge, as well as preventing the food being spoiled as
+					a result of door being left opened.</p>
+				<p>For this function, we implemented it using Arduino IDE (Arduino 1.8.10), which could be downloaded on
+					the main Arduino website without any additional fee, as one of the main methods to develop the code
+					and upload it to the microcontroller. Another approach is to use Arduino Web Editor, again, is
+					provided with no charge on the main Arduino website, to store our code on their cloud and use it as
+					a backup in case if needed. Although Arduino Web Editor is free, an account is needed to use it. We
+					also use an Arduino simulator to test our code and debug it, this simulator is available at
+					TinkerCAD.com and it’s completely free of charge.</p>
+				<span class="image main"><img src="images/door-opened-circuit.png" alt="Circuit of the door open 
+					notification system" /></span>
+				<section>
+					<a href="#project-sections" class="button large primary fit icon solid fa-home">
+						Back to Project Sections</a>
+				</section>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="copyright">
+					<li>&copy; Mjölnir. All rights reserved</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
